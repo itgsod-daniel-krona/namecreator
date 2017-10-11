@@ -1,9 +1,6 @@
 import os
 from nick import create_nick
 
-# remove usernicks.csv if it exist
-os.remove('usernicks.csv')
-
 # open user csv file
 with open('users.csv') as userfile:
     # read the lines
@@ -22,3 +19,10 @@ with open('users.csv') as userfile:
         with open('usernicks.csv', 'a') as usernicksfile:
             line = firstname + ',' + lastname + ',' + nickname + '\n'
             usernicksfile.write(line)
+            with open('usernicks.csv'):
+                if user[0] == user[0]:
+                    from random import randint
+                    number = randint(0, 9)
+                if user[1] == user[1]:
+                    from random import randint
+                    number = randint(0, 9)
