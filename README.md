@@ -19,3 +19,4 @@ genererar
     bo, johansson, bojohan
 
 
+Clone
